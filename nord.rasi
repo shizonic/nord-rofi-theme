@@ -1,0 +1,75 @@
+configuration {
+  show-icons: true;
+  //icon-theme: "Papirus";
+  font: "SauceCodePro Nerd Font Medium 11";
+  drun-display-format: "{icon} {name}";
+  display-run: " ";
+  display-drun: " ";
+  display-window: " ";
+}
+
+* {
+  bg: #2E3440;
+  bg-alt: #3B4252;
+  fg: #ECEFF4;
+  fg-alt: #E5E9F0;
+}
+
+* {
+  background-color: #00000000;
+}
+
+window {
+  height: 72%;
+  width: 30%;
+  transparency: "real";
+}
+
+mainbox {
+  children: [ inputbar, listview ];
+  padding: 0% 0% 0% 0%;
+  background-color: @bg;
+  border: 0;
+  border-radius: 5;
+  border-color: @bg;
+}
+
+listview {
+  columns: 1;
+  padding: 2;
+}
+
+element {
+  background-color: @bg;
+  text-color: @fg-alt;
+  border: 0;
+  border-radius: 5;
+  orientation: vertical;
+  padding: 12;
+}
+
+element selected {
+  background-color: @bg-alt;
+  text-color: @fg;
+  border-color: @bg;
+}
+
+inputbar {
+  background-color: @bg-alt;
+  border: 0;
+  border-radius: 5;
+  border-color: @fg;
+  children: [prompt, entry];
+  margin: 0.5% 0.2%;
+}
+
+prompt {
+  enabled: true;
+  text-color: @fg;
+  padding: 12 0 0 12;
+}
+
+entry {
+  text-color: @fg;
+  padding: 12;
+}
