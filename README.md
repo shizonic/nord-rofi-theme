@@ -4,7 +4,7 @@
 - [Nerd Fonts GitHub](https://github.com/ryanoasis/nerd-fonts)
 
 ## Wallpaper
-- [backiee](https://wallpapersden.com/iceberg-minimalist-wallpaper/)
+- [wallpapersden](https://wallpapersden.com/iceberg-minimalist-wallpaper/)
 
 ## Icon Pack
 - [Flat Remix](https://github.com/daniruiz/Flat-Remix)
