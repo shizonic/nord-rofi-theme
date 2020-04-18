@@ -1,75 +1,65 @@
 configuration {
   show-icons: true;
-  //icon-theme: "Papirus";
-  font: "SauceCodePro Nerd Font Medium 11";
+  icon-theme: "Papirus";
+  font: "SauceCodePro Nerd Font Medium 10";
   drun-display-format: "{icon} {name}";
   display-run: " ";
-  display-drun: " ";
-  display-window: " ";
+  display-drun: " ";
+  display-window: " ";
 }
 
 * {
-  bg: #2E3440;
+  background-color: #2E3440;
   bg-alt: #3B4252;
   fg: #ECEFF4;
-  fg-alt: #E5E9F0;
-}
 
-* {
-  background-color: #00000000;
+  nord-blue-light: #88C0D0;
+  nord-yellow: #EBCB8B;
+
+  border: 0;
+  lines: 12;
+  padding: 0;
+  margin: 0;
+  spacing: 0;
 }
 
 window {
-  height: 72%;
   width: 30%;
   transparency: "real";
 }
 
 mainbox {
-  children: [ inputbar, listview ];
-  padding: 0% 0% 0% 0%;
-  background-color: @bg;
-  border: 0;
-  border-radius: 5;
-  border-color: @bg;
+  children: [inputbar, listview];
 }
 
 listview {
   columns: 1;
-  padding: 2;
 }
 
 element {
-  background-color: @bg;
-  text-color: @fg-alt;
-  border: 0;
-  border-radius: 5;
-  orientation: vertical;
   padding: 12;
+  orientation: vertical;
+  text-color: @fg;
 }
 
 element selected {
   background-color: @bg-alt;
-  text-color: @fg;
-  border-color: @bg;
+  text-color: @nord-blue-light;
 }
 
 inputbar {
-  background-color: @bg-alt;
-  border: 0;
-  border-radius: 5;
-  border-color: @fg;
+  background-color: @background;
   children: [prompt, entry];
-  margin: 0.5% 0.2%;
 }
 
 prompt {
   enabled: true;
-  text-color: @fg;
+  font: "SauceCodePro Nerd Font 12";
   padding: 12 0 0 12;
+  text-color: @nord-yellow;
 }
 
 entry {
-  text-color: @fg;
   padding: 12;
+  text-color: @nord-yellow;
 }

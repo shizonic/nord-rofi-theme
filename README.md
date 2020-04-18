@@ -4,7 +4,7 @@
 - [Nerd Fonts GitHub](https://github.com/ryanoasis/nerd-fonts)
 
 ## Wallpaper
-- [wallpapersden](https://wallpapersden.com/iceberg-minimalist-wallpaper/)
+- [wallpapersden](https://wallpapersden.com/peyto-lake-4k-wallpaper/)
 
 ## Icon Pack
 - [Flat Remix](https://github.com/daniruiz/Flat-Remix)
