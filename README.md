@@ -4,7 +4,7 @@
 - [Nerd Fonts GitHub](https://github.com/ryanoasis/nerd-fonts)
 
 ## Wallpaper
-- [wallpapersden](https://wallpapersden.com/peyto-lake-4k-wallpaper/)
+- [wallpapersden](https://drive.google.com/open?id=1kgGY2QLpeCu4ITYUpcU9O2WCiIB4UZXh)
 
 ## Icon Pack
 - [Flat Remix](https://github.com/daniruiz/Flat-Remix)
