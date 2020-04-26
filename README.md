@@ -7,7 +7,7 @@
 - [Polybar Nord](https://github.com/Murzchnvok/polybar-nord)
 
 ## Wallpaper
-- [GDrive](https://drive.google.com/open?id=1kgGY2QLpeCu4ITYUpcU9O2WCiIB4UZXh)
+- [GDrive](https://drive.google.com/open?id=1VAz1QF7De_EI_EEqD-BI1pVrznGPFqfk)
 
 ## Icon Pack
 - [Flat Remix](https://github.com/daniruiz/Flat-Remix)
